@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace Res.Scripts.Object
 {
@@ -13,6 +15,7 @@ namespace Res.Scripts.Object
         public static List<GameObject> _personList;
         private float _reverbDistance;
         public float roomVolume=200f;
+        public TextMeshProUGUI reverbDistanceText;
         
         void Awake()
         {
@@ -32,6 +35,7 @@ namespace Res.Scripts.Object
                                                                       + GetAbsorptionArea(_personList);
             var reverbTime = (0.16f * roomVolume) / totalAbsorptionArea;
             _reverbDistance = reverbTime * 340.29f;
+            reverbDistanceText.SetText(_reverbDistance.ToString());
             Debug.Log(_reverbDistance);
         }
         
@@ -53,5 +57,15 @@ namespace Res.Scripts.Object
         }
 
         public float ReverbDistance => _reverbDistance;
+        
+        
+        public static bool IsPointerOverUIObject()
+        {
+            PointerEventData eventDataCurrentPosition = new PointerEventData(EventSystem.current);
+            eventDataCurrentPosition.position = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
+            List<RaycastResult> results = new List<RaycastResult>();
+            EventSystem.current.RaycastAll(eventDataCurrentPosition, results);
+            return results.Count > 0;
+        }
     }
 }

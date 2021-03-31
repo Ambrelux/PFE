@@ -20,8 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coindrop assets/Cinema/Scenes/Cinema.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coindrop assets/Cinema/Scenes/Cinema.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Modern UI Pack/Scenes/Demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Modern UI Pack/Scenes/Demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/api_ui.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/api_ui.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +57,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" root0="FORCE_HIGHLIGHTING" />
@@ -62,7 +75,6 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneData.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Shaders/Outline.shader" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" />
@@ -70,15 +82,20 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiReplaySounds.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Prefab/Outline.shader" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/Test.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiToggle.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/HighlightObject.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -184,6 +201,8 @@
       <workItem from="1616660441438" duration="5516000" />
       <workItem from="1616676527973" duration="5499000" />
       <workItem from="1616695004154" duration="913000" />
+      <workItem from="1617108889274" duration="6063000" />
+      <workItem from="1617177806952" duration="2785000" />
     </task>
     <servers />
   </component>

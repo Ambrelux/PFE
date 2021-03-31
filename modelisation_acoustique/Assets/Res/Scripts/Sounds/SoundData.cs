@@ -37,8 +37,10 @@ public class SoundData : MonoBehaviour
         {
             gameObj.GetComponent<ObjectData>().absorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
         }
+        
 
     }
 
     public int Frequency => _frequency;
 }
+

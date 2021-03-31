@@ -45,7 +45,6 @@ public class ObjectController : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
                 {
-                    Debug.Log("testgyg");
                     RaycastHit hit;
                     Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
                     if (Physics.Raycast(ray, out hit, 100.0f))
@@ -53,7 +52,6 @@ public class ObjectController : MonoBehaviour
                         if (hit.collider.gameObject.CompareTag("Furniture"))
                         {
                             _movableObject = hit.collider.gameObject;
-                            Debug.Log("test");
                         }
                     }
                 }

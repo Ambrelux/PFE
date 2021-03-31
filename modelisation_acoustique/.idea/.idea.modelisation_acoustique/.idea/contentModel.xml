@@ -7,6 +7,24 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Coindrop assets" t="Include">
+          <e p="Cinema" t="Include">
+            <e p="CompleteCinema" t="Include">
+              <e p="Character Controllers" t="Include">
+                <e p="Sources" t="Include">
+                  <e p="Scripts" t="Include">
+                    <e p="MouseLook.cs" t="Include" />
+                  </e>
+                </e>
+              </e>
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="Alpha_2sided.shader" t="Include" />
+              <e p="Reflective-Diffuse.shader" t="Include" />
+              <e p="xlightmapped-specular-double.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Modern UI Pack" t="Include">
           <e p="Editor" t="Include">
             <e p="ContextMenu.cs" t="Include" />
@@ -137,6 +155,7 @@
             </e>
             <e p="Camera" t="Include">
               <e p="CameraBehaviour.cs" t="Include" />
+              <e p="CameraSwitcher.cs" t="Include" />
             </e>
             <e p="Manager" t="Include">
               <e p="SceneLoader.cs" t="Include" />
@@ -144,9 +163,9 @@
             <e p="Object" t="Include">
               <e p="AcousticCalculation.cs" t="Include" />
               <e p="ClickToModify.cs" t="Include" />
+              <e p="HighlightObject.cs" t="Include" />
               <e p="ObjectController.cs" t="Include" />
               <e p="ObjectData.cs" t="Include" />
-              <e p="OutlineObject.cs" t="Include" />
             </e>
             <e p="Sounds" t="Include">
               <e p="SoundData.cs" t="Include" />
@@ -156,6 +175,7 @@
               <e p="UiObject.cs" t="Include" />
               <e p="UiReplaySounds.cs" t="Include" />
               <e p="UiSounds.cs" t="Include" />
+              <e p="UiToggle.cs" t="Include" />
               <e p="UiWalls.cs" t="Include" />
             </e>
             <e p="Waves" t="Include">

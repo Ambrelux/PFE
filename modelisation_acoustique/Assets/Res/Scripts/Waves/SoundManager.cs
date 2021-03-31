@@ -6,6 +6,7 @@ using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
 using Quaternion = UnityEngine.Quaternion;
 using Res.Scripts.Object;
+using Res.Scripts.UserInterface;
 
 namespace Res.Scripts.Waves
 {
@@ -21,7 +22,6 @@ namespace Res.Scripts.Waves
         public List<GameObject> _spheresList = new List<GameObject>();
         public int nbWaves = 0;
         public GameObject sphereObject;
-        public GameObject sphereParent;
         private AcousticCalculation _acousticCalculation = AcousticCalculation.Instance;
 
         private static SoundManager _instance;
@@ -47,7 +47,11 @@ namespace Res.Scripts.Waves
             {
                 StartCoroutine((ApiRequest.FindSound()));
             }
-            //DrawRaycast();
+
+            if (UiToggle.toggle)
+            {
+                DrawRaycast();
+            }
         }
 
         private void InitWaves()
@@ -119,7 +123,6 @@ namespace Res.Scripts.Waves
 
         public void InitSphere(int index, Coord[] coords)
         {
-            Debug.Log("test");
             var sphereScript = _spheresList[index].GetComponent<Sphere>();
             sphereScript.WaveCoordData.Clear();
             sphereScript.NbBounce = 0;
