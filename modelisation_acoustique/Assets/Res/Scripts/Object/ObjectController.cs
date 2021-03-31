@@ -7,7 +7,7 @@ using UnityEngine;
 public class ObjectController : MonoBehaviour
 {
         public float speed = 5f;
-        public GameObject _movableObject;
+        private GameObject _movableObject;
         private void Update()
         {
             OnClickSelectObject();
@@ -37,9 +37,18 @@ public class ObjectController : MonoBehaviour
                 {
                     _movableObject.transform.Translate(-Vector3.forward * (Time.deltaTime * speed));
                 }
+
+                if (Input.GetKeyDown(KeyCode.Keypad4))
+                {
+                    _movableObject.transform.Rotate(new Vector3(0,90,0));
+                }
+                
+                if (Input.GetKeyDown(KeyCode.Keypad6))
+                {
+                    _movableObject.transform.Rotate(new Vector3(0,-90,0));
+                }
             }
         }
-
 
         private void OnClickSelectObject()
         {
