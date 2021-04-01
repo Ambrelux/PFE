@@ -256,9 +256,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!4 &7606390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553,
@@ -311,9 +311,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!850595691 &32960217
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -483,9 +483,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &46625264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -602,9 +602,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &76516500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -673,9 +673,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &78126109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -819,7 +819,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &157825861
 PrefabInstance:
@@ -1198,9 +1198,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &189814455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1357,9 +1357,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1001 &214465726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1890,9 +1890,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &299141813 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -1911,9 +1911,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &299141818
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1975,9 +1975,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1001 &305578418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2116,9 +2116,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &344350728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2180,9 +2180,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &348755758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1776277804425246, guid: 247e5b33a1b1dba43a82e14ad7191756,
@@ -2300,9 +2300,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &405743373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2369,9 +2369,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &411154325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2451,7 +2451,7 @@ PrefabInstance:
     - target: {fileID: 4522267577204675750, guid: 7aca962de8cfb124f9d8016064e0b22a,
         type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4522267577204675750, guid: 7aca962de8cfb124f9d8016064e0b22a,
         type: 3}
@@ -2502,6 +2502,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522267577204675751, guid: 7aca962de8cfb124f9d8016064e0b22a,
+        type: 3}
+      propertyPath: roomVolume
+      value: 810
       objectReference: {fileID: 0}
     - target: {fileID: 4522267577204675751, guid: 7aca962de8cfb124f9d8016064e0b22a,
         type: 3}
@@ -2617,9 +2622,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &458064471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -2738,9 +2743,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &470141479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2773,9 +2778,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &473598715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3352,9 +3357,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &578411700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3581,9 +3586,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!114 &627543433 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7627089310253771350, guid: 2115d8c8e6079e74f8b32476384b8fba,
@@ -3872,9 +3877,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1001 &706580769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3951,7 +3956,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 27.04
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3959,7 +3964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.010000229
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4071,9 +4076,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &734412566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -4134,7 +4139,7 @@ PrefabInstance:
     - target: {fileID: 2982746606101012217, guid: 65cbef4d335530e46adca34f50ccfd1b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2982746606101012217, guid: 65cbef4d335530e46adca34f50ccfd1b,
         type: 3}
@@ -4462,9 +4467,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &784957404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4676,9 +4681,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &813387371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4726,9 +4731,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &816935868
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4884,8 +4889,8 @@ GameObject:
   - component: {fileID: 833348334}
   - component: {fileID: 833348333}
   - component: {fileID: 833348332}
-  - component: {fileID: 833348336}
   - component: {fileID: 833348335}
+  - component: {fileID: 833348336}
   m_Layer: 0
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -4951,12 +4956,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833348331}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 34.1, y: 1.81, z: 60.8}
+  m_LocalRotation: {x: -0, y: -1, z: -0, w: 0}
+  m_LocalPosition: {x: 0.5099983, y: 0.4766916, z: 2.6357002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_Father: {fileID: 1864683816}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
 --- !u!114 &833348335
 MonoBehaviour:
@@ -4992,6 +4997,7 @@ MonoBehaviour:
   nbWaves: 10
   sphereObject: {fileID: 8013552634773973037, guid: fd8318c629f0c4c4ab09eff9fabcd2a6,
     type: 3}
+  parent: {fileID: 1864683813}
 --- !u!1 &846472616 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1720321481462350, guid: c73151b2c863d094393f47d50c325553,
@@ -5024,9 +5030,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1001 &861074962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5539,7 +5545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 15
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5547,7 +5553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.020999908
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5640,9 +5646,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &955834747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5690,9 +5696,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &960405242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6019,9 +6025,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1010441018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6184,9 +6190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1056785130
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6234,9 +6240,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1085301803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6500,9 +6506,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &1132191502 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646095021822916, guid: 7314c015f88e565459fd79bfb3d7cb82,
@@ -6535,9 +6541,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &1136356574 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -6996,9 +7002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &1171173983 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1479674542863872, guid: 1311ead9e03725440bcd145a4ddd5518,
@@ -7249,9 +7255,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1248140135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7309,7 +7315,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1290046915
 PrefabInstance:
@@ -7463,9 +7469,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!1 &1301792803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -7484,9 +7490,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1301792808
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7561,7 +7567,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1306432844}
   - component: {fileID: 1306432843}
-  - component: {fileID: 1306432842}
   - component: {fileID: 1306432840}
   m_Layer: 0
   m_Name: TopViewCamera
@@ -7584,14 +7589,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 10
   rotationSpeed: 100
---- !u!81 &1306432842
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1306432839}
-  m_Enabled: 1
 --- !u!20 &1306432843
 Camera:
   m_ObjectHideFlags: 0
@@ -7642,13 +7639,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1306432839}
-  m_LocalRotation: {x: 0, y: -1, z: 0, w: 0}
-  m_LocalPosition: {x: 34.1, y: 1.81, z: 26.9}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
+  m_LocalPosition: {x: 0.8, y: 24.42, z: 1.94}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 12
-  m_LocalEulerAnglesHint: {x: 0, y: -180, z: 0}
+  m_Father: {fileID: 1864683816}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 90, y: 180, z: 0}
 --- !u!1 &1309750018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -7667,9 +7664,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1309750023
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7959,9 +7956,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1371132429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8064,9 +8061,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.02
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: Concrete
+  _materialName: Acoustic panel
 --- !u!4 &1395668789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553,
@@ -9170,9 +9167,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1576159971
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9482,7 +9479,7 @@ PrefabInstance:
     - target: {fileID: 5012181906212471706, guid: bd4b638be5170cd449a68fd75744b259,
         type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bd4b638be5170cd449a68fd75744b259, type: 3}
@@ -9561,7 +9558,7 @@ PrefabInstance:
     - target: {fileID: 2754400153856594633, guid: 42ef92fe81dc4e24086ee7c8c5df287e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2754400153856594633, guid: 42ef92fe81dc4e24086ee7c8c5df287e,
         type: 3}
@@ -9735,7 +9732,7 @@ PrefabInstance:
     - target: {fileID: 7627089309988295348, guid: 2115d8c8e6079e74f8b32476384b8fba,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7627089309988295348, guid: 2115d8c8e6079e74f8b32476384b8fba,
         type: 3}
@@ -9854,7 +9851,7 @@ PrefabInstance:
     - target: {fileID: 635133323411277409, guid: 1f4289f16f8bd1a40bc7294cb9c66f14,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 635133323411277409, guid: 1f4289f16f8bd1a40bc7294cb9c66f14,
         type: 3}
@@ -10031,9 +10028,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1682257204
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10081,9 +10078,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1685244983
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10908,7 +10905,7 @@ PrefabInstance:
     - target: {fileID: 8259632722250447191, guid: 2f045a309c9e39e4fb1ad85254a1a135,
         type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8259632723599368287, guid: 2f045a309c9e39e4fb1ad85254a1a135,
         type: 3}
@@ -11204,9 +11201,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1755301490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11304,9 +11301,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1859889018
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11336,6 +11333,38 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   materialList: []
   materialsColors: []
+--- !u!1 &1864683813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1864683816}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1864683816
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1864683813}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 33.59, y: 1.3333083, z: 58.1643}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 833348334}
+  - {fileID: 1306432844}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1869689745
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11623,9 +11652,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1915904482
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11872,9 +11901,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &1983210554
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11922,9 +11951,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &2003668272
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12073,9 +12102,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.03
+  absorptionCoef: 0.45
   surface: 9
-  _materialName: PVC ceiling
+  _materialName: Acoustic panel
 --- !u!114 &2065671263
 MonoBehaviour:
   m_ObjectHideFlags: 0

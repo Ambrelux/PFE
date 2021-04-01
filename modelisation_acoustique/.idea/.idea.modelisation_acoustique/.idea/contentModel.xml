@@ -156,6 +156,7 @@
             <e p="Camera" t="Include">
               <e p="CameraBehaviour.cs" t="Include" />
               <e p="CameraSwitcher.cs" t="Include" />
+              <e p="Controller.cs" t="Include" />
             </e>
             <e p="Manager" t="Include">
               <e p="SceneLoader.cs" t="Include" />

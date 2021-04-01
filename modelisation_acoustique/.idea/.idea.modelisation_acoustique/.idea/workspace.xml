@@ -20,8 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Coindrop assets/Cinema/Scenes/Cinema 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Coindrop assets/Cinema/Scenes/Cinema 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cinema.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Cinema.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene_iso.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene_iso.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/start_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/start_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +62,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/.editorconfig" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/Controller.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Waves/Wave.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,7 +73,6 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Uitest.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/WaveBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneData.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Shaders/Outline.shader" />
@@ -72,16 +85,19 @@
       <option value="$PROJECT_DIR$/Assets/Res/Prefab/Outline.shader" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/OutlineObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/Test.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiToggle.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/HighlightObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/Controller.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/MoveWithChild.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -188,7 +204,8 @@
       <workItem from="1616676527973" duration="5499000" />
       <workItem from="1616695004154" duration="913000" />
       <workItem from="1617108889274" duration="6063000" />
-      <workItem from="1617177806952" duration="3213000" />
+      <workItem from="1617177806952" duration="4804000" />
+      <workItem from="1617279130276" duration="6597000" />
     </task>
     <servers />
   </component>

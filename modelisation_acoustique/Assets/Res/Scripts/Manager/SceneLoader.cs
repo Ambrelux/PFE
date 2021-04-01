@@ -12,7 +12,7 @@ public class SceneLoader : MonoBehaviour
         SceneManager.LoadScene("test_scene",  LoadSceneMode.Single);
     }
 
-    public void LoadMidScene()
+    public void LoadWorkspaceScene()
     {
         SceneManager.LoadScene("mid_scene", LoadSceneMode.Single);
     }
@@ -20,6 +20,11 @@ public class SceneLoader : MonoBehaviour
     private void LoadStartScene()
     {
         SceneManager.LoadScene("start_scene", LoadSceneMode.Single);
+    }
+
+    public void LoadCinemaScene()
+    {
+        SceneManager.LoadScene("cinema_scene", LoadSceneMode.Single);
     }
 
     private void Update()

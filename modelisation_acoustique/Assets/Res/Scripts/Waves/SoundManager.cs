@@ -22,6 +22,7 @@ namespace Res.Scripts.Waves
         public List<GameObject> _spheresList = new List<GameObject>();
         public int nbWaves = 0;
         public GameObject sphereObject;
+        public GameObject parent;
         private AcousticCalculation _acousticCalculation = AcousticCalculation.Instance;
 
         private static SoundManager _instance;
@@ -139,7 +140,7 @@ namespace Res.Scripts.Waves
             GameObject tmpSphere;
             for (int i = 0; i < nbWaves; i++)
             {
-                tmpSphere = Instantiate(sphereObject, gameObject.transform, true);
+                tmpSphere = Instantiate(sphereObject, parent.transform, true);
                 tmpSphere.SetActive(false);
                 _spheresList.Add(tmpSphere);
             }

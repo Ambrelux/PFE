@@ -15,18 +15,20 @@ namespace Res.Scripts.Object
                     Ray ray = UnityEngine.Camera.main.ScreenPointToRay(Input.mousePosition);
                     if (Physics.Raycast(ray, out hit, 100.0f))
                     {
-                        if (hit.collider.gameObject.CompareTag("Furniture"))
+                        if (hit.transform.gameObject.CompareTag("Furniture"))
                         {
+                            Debug.Log("Furniture");
                             if (UiObject.Instance.uiObjectState == false)
                             {
                                 UiObject.Instance.ChangeState();
-                                UiObject.Instance.objData = hit.collider.gameObject.GetComponent<ObjectData>();
+                                UiObject.Instance.objData = hit.transform.gameObject.GetComponent<ObjectData>();
                             }
                         }
-                        else if (hit.collider.gameObject.CompareTag("Material"))
+                        else if (hit.transform.gameObject.CompareTag("Material"))
                         {
+                            Debug.Log("Material");
                             UiWalls.Instance.ChangeState();
-                            UiWalls.Instance.objData = hit.collider.gameObject.GetComponent<ObjectData>();
+                            UiWalls.Instance.objData = hit.transform.gameObject.GetComponent<ObjectData>();
                         }
                     }
                 }
