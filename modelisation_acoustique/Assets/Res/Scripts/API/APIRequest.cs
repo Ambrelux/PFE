@@ -19,13 +19,13 @@ namespace Res.Scripts.API
     {
         public const string URL = "http://localhost:3000/";
 
-        private static string ParseSoundToJson(List<GameObject> spheresList, int frequency)
+        private static string ParseSoundToJson(List<GameObject> spheresList)
         {
             var spheresCoord = new List<string>();
             for (var i = 0; i < spheresList.Count; i++)
             {
 
-                SphereCoords sphereCoords = new SphereCoords(spheresList[i].GetComponent<Sphere>().WaveCoordData);
+                SphereCoords sphereCoords = new SphereCoords(spheresList[i].GetComponent<Sphere>().Coordinates);
                 spheresCoord.Add(JsonUtility.ToJson(sphereCoords));
             }
 
@@ -34,9 +34,9 @@ namespace Res.Scripts.API
             return json;
         }
         
-        public static IEnumerator InsertSound(List<GameObject> spheresList, int frequency)
+        public static IEnumerator InsertSound(List<GameObject> spheresList)
         {
-            var json = ParseSoundToJson(spheresList, frequency);
+            var json = ParseSoundToJson(spheresList);
 
             var request = new UnityWebRequest ("http://localhost:3000/createSound", "POST");
             byte[] bodyRaw = Encoding.UTF8.GetBytes(json);

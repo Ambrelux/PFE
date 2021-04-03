@@ -36,7 +36,6 @@ namespace Res.Scripts.Object
             var reverbTime = (0.16f * roomVolume) / totalAbsorptionArea;
             _reverbDistance = reverbTime * 340.29f;
             reverbDistanceText.SetText(_reverbDistance.ToString());
-            Debug.Log(_reverbDistance);
         }
         
         private static float GetAbsorptionArea(List<GameObject> list)

@@ -17,7 +17,6 @@ namespace Res.Scripts.Object
                     {
                         if (hit.transform.gameObject.CompareTag("Furniture"))
                         {
-                            Debug.Log("Furniture");
                             if (UiObject.Instance.uiObjectState == false)
                             {
                                 UiObject.Instance.ChangeState();
@@ -26,7 +25,6 @@ namespace Res.Scripts.Object
                         }
                         else if (hit.transform.gameObject.CompareTag("Material"))
                         {
-                            Debug.Log("Material");
                             UiWalls.Instance.ChangeState();
                             UiWalls.Instance.objData = hit.transform.gameObject.GetComponent<ObjectData>();
                         }

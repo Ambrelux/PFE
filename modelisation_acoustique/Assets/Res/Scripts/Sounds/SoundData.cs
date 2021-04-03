@@ -7,6 +7,7 @@ using UnityEngine;
 public class SoundData : MonoBehaviour
 {
     private int _frequency;
+    private int _nbSpheres;
     private static SoundData _instance;
     public static SoundData Instance { get { return _instance; } }
 
@@ -14,6 +15,7 @@ public class SoundData : MonoBehaviour
     {
         _instance = this;
         _frequency = 250;
+        _nbSpheres = 10;
     }
 
     public void UpdateFrequency(int freq)
@@ -40,6 +42,8 @@ public class SoundData : MonoBehaviour
         
 
     }
+
+    public int NbSpheres => _nbSpheres;
 
     public int Frequency => _frequency;
 }
