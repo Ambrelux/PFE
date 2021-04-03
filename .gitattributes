@@ -1,1 +1,2 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
+modelisation_acoustique/Assets/Scenes/test_scene.unity filter=lfs diff=lfs merge=lfs -text
