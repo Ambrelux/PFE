@@ -171,6 +171,11 @@
             <e p="Sounds" t="Include">
               <e p="SoundData.cs" t="Include" />
             </e>
+            <e p="Spheres" t="Include">
+              <e p="SoundManager.cs" t="Include" />
+              <e p="Sphere.cs" t="Include" />
+              <e p="SpherePooler.cs" t="Include" />
+            </e>
             <e p="UserInterface" t="Include">
               <e p="UiManager.cs" t="Include" />
               <e p="UiObject.cs" t="Include" />
@@ -178,12 +183,6 @@
               <e p="UiSounds.cs" t="Include" />
               <e p="UiToggle.cs" t="Include" />
               <e p="UiWalls.cs" t="Include" />
-            </e>
-            <e p="Waves" t="Include">
-              <e p="SoundManager.cs" t="Include" />
-              <e p="Sphere.cs" t="Include" />
-              <e p="SpherePooler.cs" t="Include" />
-              <e p="Wave.cs" t="Include" />
             </e>
           </e>
           <e p="Shaders" t="Include">

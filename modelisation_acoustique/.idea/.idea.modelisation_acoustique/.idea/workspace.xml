@@ -19,16 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" afterDir="false" />
-    </list>
+    <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,11 +78,11 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SpherePooler.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/Sphere.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -200,7 +191,7 @@
       <workItem from="1617108889274" duration="6063000" />
       <workItem from="1617177806952" duration="4804000" />
       <workItem from="1617279130276" duration="6597000" />
-      <workItem from="1617454021477" duration="8517000" />
+      <workItem from="1617454021477" duration="8856000" />
     </task>
     <servers />
   </component>
