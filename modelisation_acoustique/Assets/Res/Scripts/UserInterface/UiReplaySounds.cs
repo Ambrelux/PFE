@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using UnityEngine;
 using Res.Scripts.API;
-using Res.Scripts.Waves;
+using Res.Scripts.Spheres;
 using TMPro;
 using UnityEngine.UI;
 

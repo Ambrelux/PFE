@@ -1,23 +1,24 @@
 ﻿using System.Collections.Generic;
 using Res.Scripts.API;
+using Res.Scripts.Object;
+using Res.Scripts.Sounds;
 using UnityEngine;
 using Random = UnityEngine.Random;
 using Vector3 = UnityEngine.Vector3;
-using Res.Scripts.Object;
 
-namespace Res.Scripts.Waves
+namespace Res.Scripts.Spheres
 {
     public class SoundManager : MonoBehaviour
     {
         private RaycastHit _hit;
         private const float LineOffset = 0.01f;
         private readonly List<GameObject> _spheresList = new List<GameObject>();
-        public GameObject parent;
-
         public static SoundManager Instance { get; private set; }
+        private List<GameObject> _soundEmitters = new List<GameObject>();
 
         private void Awake()
         {
+            _soundEmitters.AddRange(GameObject.FindGameObjectsWithTag("SoundEmitter"));
             Instance = this;
         }
 
@@ -39,27 +40,29 @@ namespace Res.Scripts.Waves
         private void StartSound()
         {
             _spheresList.Clear();
-
-            for (var i = 0; i < SoundData.Instance.NbSpheres + 1; i++)
+            for (int j = 0; j < _soundEmitters.Count; j++)
             {
-                var direction = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f))
-                    .normalized;
-                var origin = transform.position + LineOffset * direction;
-
-                GameObject sphere = SpherePooler.SharedInstance.GetPooledObject();
-
-                if (sphere != null)
+                for (var i = 0; i < SoundData.Instance.NbSpheres + 1; i++)
                 {
-                    sphere.transform.position = parent.transform.position;
-                    var sphereScript = sphere.GetComponent<Sphere>();
-                    sphereScript.Coordinates.Clear();
-                    sphereScript.Coordinates.Add(origin);
-                    sphereScript.Direction = direction;
-                    sphereScript.IsReplayed = false;
-                    sphere.SetActive(true);
-                    _spheresList.Add(sphere);
-                }
+                    var direction = new Vector3(Random.Range(-1f, 1f), Random.Range(-1f, 1f), Random.Range(-1f, 1f))
+                        .normalized;
+                    var origin = _soundEmitters[j].transform.position + LineOffset * direction;
 
+                    GameObject sphere = SpherePooler.SharedInstance.GetPooledObject();
+
+                    if (sphere != null)
+                    {
+                        sphere.transform.position = _soundEmitters[j].transform.position;
+                        var sphereScript = sphere.GetComponent<Sphere>();
+                        sphereScript.Coordinates.Clear();
+                        sphereScript.Coordinates.Add(origin);
+                        sphereScript.Direction = direction;
+                        sphereScript.IsReplayed = false;
+                        sphere.SetActive(true);
+                        _spheresList.Add(sphere);
+                    }
+
+                }
             }
         }
 

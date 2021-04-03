@@ -1,8 +1,7 @@
-﻿using System;
+﻿using System.Collections.Generic;
 using UnityEngine;
-using System.Collections.Generic;
 
-namespace Res.Scripts.Waves
+namespace Res.Scripts.Spheres
 {
     public class SpherePooler : MonoBehaviour
     {

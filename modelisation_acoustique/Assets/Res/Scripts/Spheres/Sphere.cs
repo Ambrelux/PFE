@@ -1,13 +1,12 @@
-﻿using System;
-using UnityEngine;
-using Vector3 = UnityEngine.Vector3;
+﻿using System.Collections;
 using System.Collections.Generic;
-using System.Collections;
-using Random = UnityEngine.Random;
 using Res.Scripts.Object;
 using Res.Scripts.UserInterface;
+using UnityEngine;
+using Vector3 = UnityEngine.Vector3;
+using Random = UnityEngine.Random;
 
-namespace Res.Scripts.Waves
+namespace Res.Scripts.Spheres
 
 {
     public class Sphere : MonoBehaviour
@@ -33,6 +32,7 @@ namespace Res.Scripts.Waves
         {
             _nbBounce = 0;
             _objectRenderer.material.SetColor("_Color",_startColor);
+            _objectRenderer.material.SetColor("_EmissionColor",_startColor);
             if(!_isReplayed)
                 ComputeCoords();
 
@@ -95,6 +95,7 @@ namespace Res.Scripts.Waves
                         var interColor = distCovered / AcousticCalculation.Instance.ReverbDistance;
                         _objectColor = Color.Lerp(_startColor, _endColor, interColor);
                         _objectRenderer.material.SetColor("_Color",_objectColor);
+                        _objectRenderer.material.SetColor("_EmissionColor",_objectColor);
                         yield return null;
                     }
                     else

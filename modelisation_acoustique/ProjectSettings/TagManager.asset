@@ -13,6 +13,7 @@ TagManager:
   - ITEM_OBJECT
   - player
   - UI_Sound
+  - SoundEmitter
   layers:
   - Default
   - TransparentFX

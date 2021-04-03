@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Vector3 = UnityEngine.Vector3;
 using System.Numerics;
+using Res.Scripts.Sounds;
 using UnityEngine;
 
 namespace Res.Scripts.Object
@@ -14,10 +15,6 @@ namespace Res.Scripts.Object
         private float _absorptionArea = 0;
         public string _materialName;
 
-        private void Awake()
-        {
-            _materialName = "Concrete";
-        }
 
         private void Start()
         {
