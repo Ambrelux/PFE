@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Res.Scripts.Object;
+using Res.Scripts.Sounds;
 using Res.Scripts.UserInterface;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
@@ -104,12 +105,13 @@ namespace Res.Scripts.Spheres
                             DrawRaycast(lastSegmentLength);    
                         }
                         
-                        yield return new WaitForSeconds(5);
+                        yield return new WaitForSeconds(SoundData.Instance.SphereDuration);
                         transform.gameObject.SetActive(false);
                     }
                 }
-
             }
+            
+            transform.gameObject.SetActive(false);
             
         }
 
@@ -129,11 +131,11 @@ namespace Res.Scripts.Spheres
                 {
                     var dir = (endPoint - startPoint).normalized;
                     endPoint = startPoint + (dir * lastSegmentLength);
-                    Debug.DrawLine(startPoint, endPoint, rayColor, 5f, false);
+                    Debug.DrawLine(startPoint, endPoint, rayColor, SoundData.Instance.SphereDuration, false);
                 }
                 else
                 {
-                    Debug.DrawLine(startPoint, endPoint, rayColor, 5f, false);
+                    Debug.DrawLine(startPoint, endPoint, rayColor, SoundData.Instance.SphereDuration, false);
                 }
             }
         }

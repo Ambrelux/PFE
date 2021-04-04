@@ -30,11 +30,6 @@ namespace Res.Scripts.Spheres
                 StartSound();
                 StartCoroutine(ApiRequest.InsertSound(_spheresList));
             }
-
-            if (Input.GetKeyUp(KeyCode.F))
-            {
-                StartCoroutine((ApiRequest.FindSound()));
-            }
         }
 
         private void StartSound()

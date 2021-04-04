@@ -9,7 +9,7 @@ namespace Res.Scripts.Object
             // if (!UiObject.Instance.uiObjectState && !UiWalls.Instance.uiWallsState && !UiReplaySounds.Instance.uiReplaySoundsState && !UiSounds.Instance.uiSoundsState)
             // {
             if(!AcousticCalculation.IsPointerOverUIObject()){
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButtonDown(1))
                 {
                     RaycastHit hit;
                     Ray ray = UnityEngine.Camera.main.ScreenPointToRay(Input.mousePosition);

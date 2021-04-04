@@ -50,7 +50,7 @@ namespace Res.Scripts.Object
 
         private void OnClickSelectObject()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(2))
             {
                 RaycastHit hit;
                 Ray ray = UnityEngine.Camera.main.ScreenPointToRay(Input.mousePosition);

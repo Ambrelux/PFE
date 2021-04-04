@@ -8,6 +8,7 @@ namespace Res.Scripts.Sounds
     {
         private int _frequency;
         private int _nbSpheres;
+        private float _sphereDuration;
         private static SoundData _instance;
         public static SoundData Instance { get { return _instance; } }
 
@@ -16,6 +17,7 @@ namespace Res.Scripts.Sounds
             _instance = this;
             _frequency = 250;
             _nbSpheres = 10;
+            _sphereDuration = 5f;
         }
 
         public void UpdateFrequency(int freq)
@@ -24,6 +26,17 @@ namespace Res.Scripts.Sounds
             UpdateAllAbsorbCoeff();
             AcousticCalculation.Instance.UpdateAcousticCalculation();
         }
+
+        public void UpdateNbSpheres(int nbSpheres)
+        {
+            _nbSpheres = nbSpheres;
+        }
+
+        public void UpdateSphereDuration(float duration)
+        {
+            _sphereDuration = duration;
+        }
+        
 
         public void UpdateAllAbsorbCoeff()
         {
@@ -46,6 +59,8 @@ namespace Res.Scripts.Sounds
         public int NbSpheres => _nbSpheres;
 
         public int Frequency => _frequency;
+
+        public float SphereDuration => _sphereDuration;
     }
 }
 
