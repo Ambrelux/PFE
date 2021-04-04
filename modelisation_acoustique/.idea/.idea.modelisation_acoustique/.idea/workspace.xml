@@ -21,14 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/SoundManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/Sphere.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/Sphere.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/cinema_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/cinema_scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/start_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/start_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +198,7 @@
       <workItem from="1617177806952" duration="4804000" />
       <workItem from="1617279130276" duration="6597000" />
       <workItem from="1617454021477" duration="14326000" />
-      <workItem from="1617537500945" duration="6563000" />
+      <workItem from="1617537500945" duration="8645000" />
     </task>
     <servers />
   </component>
