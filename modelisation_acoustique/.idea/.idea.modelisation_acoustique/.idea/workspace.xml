@@ -20,24 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/Sphere.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/Sphere.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/sphereMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Prefab/sphereMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/Controller.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/Controller.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/SoundManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/SoundManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/TopViewCamera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/TopViewCamera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/wallpaper.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Prefab/wallpaper.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/Sphere.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/Sphere.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/SpherePooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/SpherePooler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiReplaySounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiReplaySounds.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/cinema_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/cinema_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/test_scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,17 +47,17 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@1.2.1/.editorconfig" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiSounds.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ClickToModify.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/4a/4a1ed813ba4931a15aa527d7c0830d4b.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -85,7 +77,6 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/Test.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiToggle.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/HighlightObject.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraBehaviour.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/MoveWithChild.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
@@ -100,8 +91,9 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Sounds/SoundData.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/SoundManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/AcousticCalculation.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/Sphere.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/ObjectData.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/Sphere.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -211,6 +203,7 @@
       <workItem from="1617177806952" duration="4804000" />
       <workItem from="1617279130276" duration="6597000" />
       <workItem from="1617454021477" duration="14326000" />
+      <workItem from="1617537500945" duration="3687000" />
     </task>
     <servers />
   </component>

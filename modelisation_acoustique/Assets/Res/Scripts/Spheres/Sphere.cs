@@ -20,12 +20,10 @@ namespace Res.Scripts.Spheres
         private readonly Color _startColor = new Color32(71, 255, 78, 255);
         private readonly Color _endColor = new Color32(255, 0,0 , 255);
         private Color _objectColor;
-        private Color _rayColor;
 
         private void Awake()
          {
              _objectRenderer = transform.gameObject.GetComponent<Renderer>();
-             _rayColor = new Color(Random.Range(0f, 1f), Random.Range(0f, 1f), Random.Range(0f, 1f));
          }
         
         private void OnEnable()
@@ -122,20 +120,35 @@ namespace Res.Scripts.Spheres
             
             for (var j = 0; j <= _nbBounce; j++)
             {
+                var interColor = (j + 1f )/ _nbBounce;
+                var rayColor = ColorPicker(interColor);
                 var startPoint = _coordinates[j];
                 var endPoint = _coordinates[j+1];
-
+                
                 if (j == _nbBounce)
                 {
                     var dir = (endPoint - startPoint).normalized;
                     endPoint = startPoint + (dir * lastSegmentLength);
-                    Debug.DrawLine(startPoint, endPoint, _rayColor, 5f, false);
+                    Debug.DrawLine(startPoint, endPoint, rayColor, 5f, false);
                 }
                 else
                 {
-                    Debug.DrawLine(startPoint, endPoint, _rayColor, 5f, false);
+                    Debug.DrawLine(startPoint, endPoint, rayColor, 5f, false);
                 }
             }
+        }
+
+        private Color ColorPicker(float interColor)
+        {
+            Color orange = new Color32(254, 161, 0, 255);
+            Color darkGreen = new Color32(0, 128, 0, 255);
+
+            if (interColor <= 0.2f) return darkGreen;
+            if (interColor <= 0.4f) return Color.green;
+            if ( interColor <= 0.6f) return Color.yellow; 
+            if (interColor <= 0.8f) return orange;
+            
+            return Color.red;
         }
         
         public Vector3 Direction

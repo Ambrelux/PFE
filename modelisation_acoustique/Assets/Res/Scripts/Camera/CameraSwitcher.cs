@@ -11,8 +11,9 @@ namespace Res.Scripts.Camera
 
         private void Update()
         {
-            if (Input.GetKeyUp(KeyCode.Keypad8))
+            if (Input.GetKeyUp(KeyCode.Tab))
             {
+                mainCamera.SetActive(!mainCamera.activeSelf);
                 topViewCamera.SetActive(!topViewCamera.activeSelf);
 
             }
