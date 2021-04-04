@@ -15,6 +15,9 @@ namespace Res.Scripts.Camera
             Raise();
         }
 
+        /// <summary>
+        /// This function allows user to rotate active camera with arrow keys.
+        /// </summary>
         private void Rotate()
         {
             if(Input.GetAxis("Horizontal") > 0)
@@ -26,7 +29,10 @@ namespace Res.Scripts.Camera
                 transform.Rotate(-Vector3.up * (Time.deltaTime * rotationSpeed));
             }
         }
-
+        
+        /// <summary>
+        /// This function allows user to move active camera with arrow keys.
+        /// </summary>
         private void Move()
         {
             if (Input.GetAxis("Vertical") > 0)
@@ -39,6 +45,9 @@ namespace Res.Scripts.Camera
             }
         }
 
+        /// <summary>
+        /// This function allows user to rise or lower active camera with H and B keys.
+        /// </summary>
         private void Raise()
         {
             if (Input.GetKey(KeyCode.H))

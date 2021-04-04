@@ -9,8 +9,8 @@ namespace Res.Scripts.UserInterface
         
         private static UiWalls _instance;
         public static UiWalls Instance { get { return _instance; } }
-        public bool uiWallsState = false;
         public ObjectData objData;
+        
         private void Awake()
         {
             _instance = this;
@@ -18,7 +18,6 @@ namespace Res.Scripts.UserInterface
 
         public void ChangeState()
         {
-            uiWallsState = !uiWallsState;
             foreach (Transform child in transform)
             {
                 child.gameObject.SetActive(!child.gameObject.activeSelf);

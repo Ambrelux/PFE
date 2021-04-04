@@ -52,8 +52,14 @@ namespace Res.Scripts.Sounds
             {
                 gameObj.GetComponent<ObjectData>().absorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
             }
-        
-
+            foreach (GameObject gameObj in furnitureList)
+            {
+                gameObj.GetComponent<ObjectData>().absorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
+            }
+            foreach (GameObject gameObj in personList)
+            {
+                gameObj.GetComponent<ObjectData>().absorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
+            }
         }
 
         public int NbSpheres => _nbSpheres;

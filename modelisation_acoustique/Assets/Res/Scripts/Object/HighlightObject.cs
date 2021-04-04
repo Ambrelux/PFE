@@ -38,7 +38,6 @@ namespace Res.Scripts.Object
             }
         }
 
-
         void AddMaterialInList(List<Material> list)
         {
             //a function that makes a list of all the materials present on the renderer
@@ -49,11 +48,9 @@ namespace Res.Scripts.Object
             for (int i = 0; i < rend.materials.Length; i++)
             {
                 list.Add(rend.materials[i]);
-                
             }
-            
-
         }
+        
         void AddPreviousColorInList(List<Color32> colorList)
         {
             //a function that saves original colors of each materials of a renderer
@@ -63,10 +60,8 @@ namespace Res.Scripts.Object
             
             for (int i = 0; i < rend.materials.Length; i++)
             {
-                
                 colorList.Add(rend.materials[i].color);
             }
-
         }
 
 

@@ -9,10 +9,9 @@ namespace Res.Scripts.Object
     {
         private static AcousticCalculation _instance;
         public static AcousticCalculation Instance { get { return _instance; } }
-        
-        public static List<GameObject> _materialList;
-        public static List<GameObject> _furnitureList;
-        public static List<GameObject> _personList;
+        private static List<GameObject> _materialList;
+        private static List<GameObject> _furnitureList;
+        private static List<GameObject> _personList;
         private float _reverbDistance;
         public float roomVolume=200f;
         public TextMeshProUGUI reverbDistanceText;
@@ -56,7 +55,6 @@ namespace Res.Scripts.Object
         }
 
         public float ReverbDistance => _reverbDistance;
-        
         
         public static bool IsPointerOverUIObject()
         {

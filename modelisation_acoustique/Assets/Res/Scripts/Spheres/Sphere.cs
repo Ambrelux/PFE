@@ -5,18 +5,15 @@ using Res.Scripts.Sounds;
 using Res.Scripts.UserInterface;
 using UnityEngine;
 using Vector3 = UnityEngine.Vector3;
-using Random = UnityEngine.Random;
 
 namespace Res.Scripts.Spheres
-
 {
     public class Sphere : MonoBehaviour
     {
         private bool _isReplayed;
         private Vector3 _direction;
-        private List<Vector3> _coordinates = new List<Vector3>();
+        private readonly List<Vector3> _coordinates = new List<Vector3>();
         private int _nbBounce;
-        
         private Renderer _objectRenderer;      
         private readonly Color _startColor = new Color32(71, 255, 78, 255);
         private readonly Color _endColor = new Color32(255, 0,0 , 255);
@@ -40,10 +37,13 @@ namespace Res.Scripts.Spheres
                 transform.gameObject.SetActive(false);
                 return;
             }
-
+            
             StartCoroutine(MoveSphere());
         }
         
+        /// <summary>
+        /// This function calculates the contact points of the sphere before it moves in order to improve performance
+        /// </summary>
         private void ComputeCoords()
         {
             if (_coordinates.Count == 0)
@@ -61,10 +61,13 @@ namespace Res.Scripts.Spheres
                 _coordinates.Add(origin);
             }
         }
-        
 
-
-
+        /// <summary>
+        /// This coroutine moves sphere between each point calculated before.
+        /// The sphere stops moving when it travelled the same distance as reverberation distance
+        /// Sphere's color changes from green to red according to the distance travelled .
+        /// </summary>
+        /// <returns></returns>
         private IEnumerator MoveSphere()
         {
             if (_coordinates.Count == 0)
@@ -102,7 +105,7 @@ namespace Res.Scripts.Spheres
                         _nbBounce = i;
                         if (UiToggle.toggle)
                         {
-                            DrawRaycast(lastSegmentLength);    
+                            DrawLine(lastSegmentLength);    
                         }
                         
                         yield return new WaitForSeconds(SoundData.Instance.SphereDuration);
@@ -110,12 +113,15 @@ namespace Res.Scripts.Spheres
                     }
                 }
             }
-            
             transform.gameObject.SetActive(false);
-            
         }
-
-        private void DrawRaycast(float lastSegmentLength)
+        
+        /// <summary>
+        /// This function is called when user allows raycast, it draws lines between each point.
+        /// The line's color changes depending on distance travelled.
+        /// </summary>
+        /// <param name="lastSegmentLength">Distance between n-1 point and end point of the sphere.</param>
+        private void DrawLine(float lastSegmentLength)
         {
             if (_coordinates.Count < 2)
                 return;
@@ -140,6 +146,13 @@ namespace Res.Scripts.Spheres
             }
         }
 
+        /// <summary>
+        /// This function works in the same way as ColorLerp.
+        /// It returns a color depending on interColor's value.
+        /// </summary>
+        /// <param name="interColor"></param>
+        /// <returns></returns>
+        /// 
         private Color ColorPicker(float interColor)
         {
             Color orange = new Color32(254, 161, 0, 255);
@@ -155,19 +168,13 @@ namespace Res.Scripts.Spheres
         
         public Vector3 Direction
         {
-            get => _direction;
             set => _direction = value;
         }
         
-        public List<Vector3> Coordinates
-        {
-            get => _coordinates;
-            set => _coordinates = value;
-        }
+        public List<Vector3> Coordinates => _coordinates;
 
         public bool IsReplayed
         {
-            get => _isReplayed;
             set => _isReplayed = value;
         }
     } 

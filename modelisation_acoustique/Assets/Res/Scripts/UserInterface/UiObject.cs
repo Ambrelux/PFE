@@ -10,7 +10,6 @@ namespace Res.Scripts.UserInterface
         
         private static UiObject _instance;
         public static UiObject Instance { get { return _instance; } }
-        public bool uiObjectState = false;
         public ObjectData objData;
 
         private void Awake()
@@ -20,7 +19,6 @@ namespace Res.Scripts.UserInterface
 
         public void ChangeState()
         {
-            uiObjectState = !uiObjectState;
             foreach (Transform child in transform)
             {
                 child.gameObject.SetActive(!child.gameObject.activeSelf);

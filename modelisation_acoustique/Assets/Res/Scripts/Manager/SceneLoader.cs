@@ -3,6 +3,10 @@ using UnityEngine.SceneManagement;
 
 namespace Res.Scripts.Manager
 {
+    
+    /// <summary>
+    /// This class contains functions to load scenes and quit the app.
+    /// </summary>
     public class SceneLoader : MonoBehaviour
     {
 

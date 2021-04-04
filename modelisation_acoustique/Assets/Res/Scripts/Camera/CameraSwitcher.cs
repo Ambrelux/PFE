@@ -12,11 +12,17 @@ namespace Res.Scripts.Camera
         private void Update()
         {
             if (Input.GetKeyUp(KeyCode.Tab))
-            {
-                mainCamera.SetActive(!mainCamera.activeSelf);
-                topViewCamera.SetActive(!topViewCamera.activeSelf);
+                SwitchCamera();
+        }
 
-            }
+        /// <summary>
+        /// This function switches between main and top view cameras. (Activated or disactived)
+        /// 
+        /// </summary>
+        private void SwitchCamera()
+        {
+            mainCamera.SetActive(!mainCamera.activeSelf);
+            topViewCamera.SetActive(!topViewCamera.activeSelf);    
         }
     }
 }

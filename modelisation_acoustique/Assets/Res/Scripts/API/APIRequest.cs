@@ -4,11 +4,9 @@ using Vector3 = UnityEngine.Vector3;
 using System.Collections.Generic;
 using System.Collections;
 using System.Globalization;
-using System.IO;
 using System.Text;
 using Res.Scripts.Sounds;
 using Res.Scripts.Spheres;
-using UnityEditor;
 using UnityEngine.Networking;
 using Random = UnityEngine.Random;
 using Res.Scripts.UserInterface;
@@ -16,17 +14,20 @@ using UnityEngine.SceneManagement;
 
 namespace Res.Scripts.API
 {
-    public class ApiRequest
+    public static class ApiRequest
     {
         public const string URL = "http://localhost:3000/";
 
-        private static string ParseSoundToJson(List<GameObject> spheresList)
+        /// <summary>
+        /// This functions returns a json string : id, scene id, date, frequency, list of spheres' coordinates
+        /// </summary>
+        /// <param name="List of sphere"></param>
+        private static string ParseSoundToJson(IReadOnlyList<GameObject> spheresList)
         {
             var spheresCoord = new List<string>();
-            for (var i = 0; i < spheresList.Count; i++)
+            foreach (var sphere in spheresList)
             {
-
-                SphereCoords sphereCoords = new SphereCoords(spheresList[i].GetComponent<Sphere>().Coordinates);
+                SphereCoords sphereCoords = new SphereCoords(sphere.GetComponent<Sphere>().Coordinates);
                 spheresCoord.Add(JsonUtility.ToJson(sphereCoords));
             }
 
@@ -35,6 +36,11 @@ namespace Res.Scripts.API
             return json;
         }
         
+        /// <summary>
+        /// This coroutine send a POST request in order to store the newly created sound's data.
+        /// </summary>
+        /// <param name="spheresList"></param>
+        /// <returns></returns>
         public static IEnumerator InsertSound(List<GameObject> spheresList)
         {
             var json = ParseSoundToJson(spheresList);
@@ -57,6 +63,10 @@ namespace Res.Scripts.API
             }
         }
 
+        /// <summary>
+        /// This coroutine send a GET request to retrieve every stored sounds.
+        /// </summary>
+        /// <returns></returns>
         public static IEnumerator FindSound()
         {
             using (UnityWebRequest www = UnityWebRequest.Get("http://localhost:3000/findSound"))
@@ -75,6 +85,10 @@ namespace Res.Scripts.API
             }
         }
 
+        /// <summary>
+        /// This coroutine send a GET request to retrieve sounds played in the current scene.
+        /// </summary>
+        /// <returns></returns>
         public static IEnumerator FindSoundBySceneId()
         {
             string url = "http://localhost:3000/findSoundBySceneId/" + SceneManager.GetActiveScene().buildIndex;
@@ -112,19 +126,10 @@ public class JsonHelper
     }
 }
 
-/*
- *
- *
- *
- *
- *
- * 
-*/
-
 [Serializable]
 public class Sound
 {
-    public int _id;
+    public int id;
     public int scene;
     public string date;
     public int frequency;
@@ -132,7 +137,7 @@ public class Sound
 
     public Sound(int _scene, int _frequency, List<string> _spheres)
     {
-        _id = Random.Range(0,999999);
+        id = Random.Range(0,999999);
         scene = _scene;
         date = DateTime.Now.ToString(CultureInfo.InvariantCulture);
         frequency = _frequency;
@@ -145,61 +150,8 @@ public class SphereCoords
 {
     public List<Vector3> sphereCoords;
 
-    public SphereCoords(List<Vector3> _coords)
+    public SphereCoords(List<Vector3> coords)
     {
-        sphereCoords = _coords;
+        sphereCoords = coords;
     }
 }
-
-
-
-// public class Sound
-// {
-//     public int id;
-//     public string date;
-//     public int frequency;
-//     public List<Vector3> spheres;
-//
-//     public Sound(int _frequency, List<Vector3> _spheres)
-//     {
-//         id = Random.Range(0,999999);
-//         date = DateTime.Now.ToString(CultureInfo.InvariantCulture);
-//         frequency = _frequency;
-//         spheres = _spheres;
-//     }
-// }
-// public class Sound
-// {
-//     public int id;
-//     public string date;
-//     public int frequency;
-//     public List<List<Vector3>> spheres;
-//
-//     public Sound(int _frequency, List<List<Vector3>> _spheres)
-//     {
-//         id = Random.Range(0,999999);
-//         date = DateTime.Now.ToString(CultureInfo.InvariantCulture);
-//         frequency = _frequency;
-//         spheres = _spheres;
-//     }
-// }
-
-// string path = "Assets/Res/Scripts/API/datainsert.txt";
-//         
-// //Write some text to the test.txt file
-// StreamWriter writer = new StreamWriter(path, true);
-// writer.WriteLine(json);
-// writer.Close();
-//
-// yield return null;
-
-// Sound[] sounds = JsonHelper.getJsonArray<Sound> (result);
-// Debug.Log(sounds[0].spheres[0]);
-// Debug.Log(sounds[1]._id);
-// Debug.Log(result);
-// string path = "Assets/Res/Scripts/API/datafind.txt";
-//
-// //Write some text to the test.txt file
-// StreamWriter writer = new StreamWriter(path, true);
-// writer.WriteLine(result);
-// writer.Close();
