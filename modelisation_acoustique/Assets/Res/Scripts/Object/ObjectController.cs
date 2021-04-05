@@ -4,7 +4,7 @@ namespace Res.Scripts.Object
 {
     public class ObjectController : MonoBehaviour
     {
-        public float speed = 5f;
+        [SerializeField] private float speed = 5f;
         private GameObject _movableObject;
         private void Update()
         {

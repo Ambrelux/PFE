@@ -9,12 +9,13 @@ namespace Res.Scripts.Object
     {
         private static AcousticCalculation _instance;
         public static AcousticCalculation Instance { get { return _instance; } }
+        
         private static List<GameObject> _materialList;
         private static List<GameObject> _furnitureList;
         private static List<GameObject> _personList;
         private float _reverbDistance;
-        public float roomVolume=200f;
-        public TextMeshProUGUI reverbDistanceText;
+        [SerializeField] private float roomVolume=200f;
+        [SerializeField] private TextMeshProUGUI reverbDistanceText;
         
         void Awake()
         {
@@ -42,7 +43,7 @@ namespace Res.Scripts.Object
             var totalAbsorptionArea = 0f; 
             for(var i = 0; i< list.Count; i++)
             {
-                totalAbsorptionArea += list[i].GetComponent<ObjectData>().surface * list[i].GetComponent<ObjectData>().absorptionCoef;
+                totalAbsorptionArea += list[i].GetComponent<ObjectData>().GetAbsorptionArea();
             }
 
             return totalAbsorptionArea;

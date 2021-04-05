@@ -31,7 +31,7 @@ namespace Res.Scripts.Spheres
                 StartCoroutine(ApiRequest.InsertSound(_spheresList));
             }
         }
-
+        
         private void StartSound()
         {
             _spheresList.Clear();

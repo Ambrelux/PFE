@@ -5,37 +5,27 @@ using Vector3 = UnityEngine.Vector3;
 using System.Numerics;
 using Res.Scripts.Sounds;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace Res.Scripts.Object
 {
     public class ObjectData : MonoBehaviour
     {
-        public float absorptionCoef = 0.5f;
-        public float surface = 0;
-        private float _absorptionArea = 0;
-        public string _materialName;
-
-
-        private void Start()
-        {
-            UpdateAbsorptionArea();
-        }
         
-        public float AbsorptionArea
-        {
-            get => _absorptionArea;
-        }
-
-        public void UpdateAbsorptionArea()
-        {
-            _absorptionArea = absorptionCoef * surface;
-        }
-
+        [SerializeField] private float absorptionCoef;
+        [SerializeField] private float surface;
+        [SerializeField] private string materialName;
+        
         public void UpdateMaterial(string matName)
         {
-            _materialName = matName;
+            materialName = matName;
             absorptionCoef = GetAbsorptionCoef();
             AcousticCalculation.Instance.UpdateAcousticCalculation();
+        }
+
+        public float GetAbsorptionArea()
+        {
+            return absorptionCoef * surface;
         }
 
         public float GetAbsorptionCoef()
@@ -43,7 +33,7 @@ namespace Res.Scripts.Object
             switch (SoundData.Instance.Frequency)
             {
                 case 125:
-                    switch (_materialName)
+                    switch (materialName)
                     {
                         case "Tiled floor":
                             return 0.05f;
@@ -102,7 +92,7 @@ namespace Res.Scripts.Object
                     }
                      
                 case 250:
-                    switch (_materialName)
+                    switch (materialName)
                     {
                         case "Tiled floor":
                             return 0.08f;
@@ -161,7 +151,7 @@ namespace Res.Scripts.Object
                     }
                      
                 case 500:
-                    switch (_materialName)
+                    switch (materialName)
                     {
                         case "Tiled floor":
                             return 0.02f;
@@ -220,7 +210,7 @@ namespace Res.Scripts.Object
                     }
                      
                 case 1000:
-                    switch (_materialName)
+                    switch (materialName)
                     {
                         case "Tiled floor":
                             return 0.03f;
@@ -279,7 +269,7 @@ namespace Res.Scripts.Object
                     }
                      
                 case 2000:
-                    switch (_materialName)
+                    switch (materialName)
                     {
                         case "Tiled floor":
                             return 0.04f;
@@ -338,7 +328,7 @@ namespace Res.Scripts.Object
                     }
                      
                 case 4000:
-                    switch (_materialName)
+                    switch (materialName)
                     {
                         case "Tiled floor":
                             return 0.04f;
@@ -401,8 +391,25 @@ namespace Res.Scripts.Object
                      
             }
         }
+        
+        public float AbsorptionCoef
+        {
+            get => absorptionCoef;
+            set => absorptionCoef = value;
+        }
+
+        public float Surface
+        {
+            get => surface;
+            set => surface = value;
+        }
+
+        public string MaterialName
+        {
+            get => materialName;
+            set => materialName = value;
+        }
     }
-    
 }
 
 

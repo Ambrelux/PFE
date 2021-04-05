@@ -50,15 +50,15 @@ namespace Res.Scripts.Sounds
 
             foreach (GameObject gameObj in materialList)
             {
-                gameObj.GetComponent<ObjectData>().absorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
+                gameObj.GetComponent<ObjectData>().AbsorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
             }
             foreach (GameObject gameObj in furnitureList)
             {
-                gameObj.GetComponent<ObjectData>().absorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
+                gameObj.GetComponent<ObjectData>().AbsorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
             }
             foreach (GameObject gameObj in personList)
             {
-                gameObj.GetComponent<ObjectData>().absorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
+                gameObj.GetComponent<ObjectData>().AbsorptionCoef = gameObj.GetComponent<ObjectData>().GetAbsorptionCoef();
             }
         }
 

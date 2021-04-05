@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Res.Scripts.Spheres
@@ -6,13 +7,14 @@ namespace Res.Scripts.Spheres
     public class SpherePooler : MonoBehaviour
     {
         public static SpherePooler SharedInstance;
-        public List<GameObject> pooledSpheres;
-        public GameObject sphereToPool;
-        public Transform parent;
-        public int amountToPool;
-        public bool shouldExpand = true;
+        [SerializeField] private List<GameObject> pooledSpheres;
+        [SerializeField] private GameObject sphereToPool;
+        [SerializeField] private Transform parent;
+        [SerializeField] private int amountToPool;
+        [SerializeField] private bool shouldExpand = true;
         void Awake() {
             SharedInstance = this;
+            amountToPool = 50;
         }
 
         private void Start()

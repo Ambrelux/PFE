@@ -5,8 +5,8 @@ namespace Res.Scripts.Camera
 {
     public class CameraBehaviour : MonoBehaviour
     {
-        public float speed = 15;
-        public float rotationSpeed = 50;
+        [SerializeField] private float speed = 15;
+        [SerializeField] private float rotationSpeed = 50;
 
         private void Update()
         {

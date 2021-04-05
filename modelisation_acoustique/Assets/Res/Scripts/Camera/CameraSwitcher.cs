@@ -5,8 +5,8 @@ namespace Res.Scripts.Camera
 {
     public class CameraSwitcher : MonoBehaviour
     {
-        public GameObject mainCamera;
-        public GameObject topViewCamera;
+        [SerializeField] private GameObject mainCamera;
+        [SerializeField] private GameObject topViewCamera;
 
 
         private void Update()
