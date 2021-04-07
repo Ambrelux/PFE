@@ -23,8 +23,8 @@ This simulation uses Unity 2020.1.13f.
 
 To save sounds' data and replay previous sounds you must install Docker in order to launch the API: https://www.docker.com/
 
-To start the API use the following command : ```docker-compose up```
-To stop the API use the following command : ```docker-compose down```
+* To start the API use the following command : ```docker-compose up```
+* To stop the API use the following command : ```docker-compose down```
 
 ## Assets :
 
