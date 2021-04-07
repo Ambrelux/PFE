@@ -1,6 +1,6 @@
 # End of studies project : Sound waves' modelisation in a virtual environment
 
-## Introduction :
+## Project description :
 
 The aim of the project is to create a simulator which allows users to visualize sound waves’ trajectories and energy loss.
 
@@ -26,5 +26,17 @@ To save sounds' data and replay previous sounds you must install Docker in order
 To start the API use the following command : ```docker-compose up```
 To stop the API use the following command : ```docker-compose down```
 
+## Assets :
+
+For this project we used several assets : 
+
+workspace : https://assetstore.unity.com/packages/3d/environments/snaps-prototype-office-137490
+cinema : https://assetstore.unity.com/packages/3d/environments/cinema-28039
+user interface : https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-150824
+
+## Authors :
+
+Kergutuil Théo @LeKer29
+Puybaraud Ambre @AmbreLux
 
 
