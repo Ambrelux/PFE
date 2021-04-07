@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const soundSchema = new Schema({
-    _id: Number,
+	_id: Number,
     scene: Number,
     date: String,
     frequency: Number,

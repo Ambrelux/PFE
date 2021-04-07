@@ -184,6 +184,55 @@ Transform:
   m_Father: {fileID: 892804697}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &5037274
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 405743374}
+    m_Modifications:
+    - target: {fileID: 1720321481462350, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_Name
+      value: Neo_Wall_snaps001 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1720321481462350, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_TagString
+      value: Material
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c73151b2c863d094393f47d50c325553, type: 3}
 --- !u!1001 &7198657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -257,9 +306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!4 &7606390 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553,
@@ -312,9 +361,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!850595691 &32960217
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -410,7 +459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1001 &43547955
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -484,24 +533,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &46625264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 46625259}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &46625265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -603,9 +637,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 18
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &76516500 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -640,7 +674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &76516506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -655,7 +689,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &78126104 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -674,24 +708,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &78126109
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 78126104}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &78126110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -744,9 +763,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
-  surface: 9
-  _materialName: Acoustic panel
+  absorptionCoef: 0.78
+  surface: 18
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &137084561 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -781,7 +800,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &137084567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -796,7 +815,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &142943989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1022,9 +1041,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
-  surface: 9
-  _materialName: Acoustic panel
+  absorptionCoef: 0.78
+  surface: 18
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &167047975 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1054516531068854, guid: 52e174db68e69754b9b080b25a308977,
@@ -1059,7 +1078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.21
   surface: 4.7
-  _materialName: 
+  materialName: 
 --- !u!1001 &183467388
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1247,24 +1266,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &189814455
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 189814450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &189814456
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1305,7 +1309,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.21
   surface: 2.625
-  _materialName: 
+  materialName: 
 --- !u!114 &190343762
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1414,7 +1418,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1 &211516553 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646095021822916, guid: 7314c015f88e565459fd79bfb3d7cb82,
@@ -1447,9 +1451,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 18
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1001 &214465726
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1683,7 +1687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.55
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1 &251155212 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1201589705723942, guid: 6ceca4d01ca8690498194787a589d0ea,
@@ -1710,7 +1714,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.21
   surface: 7
-  _materialName: 
+  materialName: 
 --- !u!114 &251155215
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1977,9 +1981,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &299141813 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -1998,24 +2002,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &299141818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299141813}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &299141819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2062,9 +2051,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1001 &305578418
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2203,24 +2192,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &344350728
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 344350723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &344350729
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2267,9 +2241,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 18
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &348755758 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1776277804425246, guid: 247e5b33a1b1dba43a82e14ad7191756,
@@ -2304,7 +2278,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.55
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1 &358103929 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -2339,7 +2313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &358103935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2354,7 +2328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &397262933 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646095021822916, guid: 7314c015f88e565459fd79bfb3d7cb82,
@@ -2387,9 +2361,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 18
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &405743373
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,6 +2413,7 @@ Transform:
   - {fileID: 165681479}
   - {fileID: 1356126173}
   - {fileID: 88429482}
+  - {fileID: 1965456287}
   m_Father: {fileID: 892804697}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2460,9 +2435,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
+  materialName: Tonga ceiling
 --- !u!114 &411154325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2627,7 +2602,7 @@ PrefabInstance:
     - target: {fileID: 4522267577204675751, guid: 7aca962de8cfb124f9d8016064e0b22a,
         type: 3}
       propertyPath: roomVolume
-      value: 810
+      value: 837
       objectReference: {fileID: 0}
     - target: {fileID: 4522267577204675751, guid: 7aca962de8cfb124f9d8016064e0b22a,
         type: 3}
@@ -2679,9 +2654,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
-  surface: 9
-  _materialName: Acoustic panel
+  absorptionCoef: 0.78
+  surface: 18
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &437705065 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1479674542863872, guid: 1311ead9e03725440bcd145a4ddd5518,
@@ -2716,7 +2691,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1 &439720755 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1201589705723942, guid: 6ceca4d01ca8690498194787a589d0ea,
@@ -2751,7 +2726,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.21
   surface: 7
-  _materialName: 
+  materialName: 
 --- !u!1 &443836860 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646095021822916, guid: 7314c015f88e565459fd79bfb3d7cb82,
@@ -2784,9 +2759,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 18
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &458064471 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -2821,7 +2796,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &458064477
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2836,7 +2811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &462947656 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -2871,7 +2846,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &462947662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2886,7 +2861,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &470141474 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -2905,9 +2880,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
+  materialName: Tonga ceiling
 --- !u!114 &470141479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2940,24 +2915,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &473598715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473598710}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &473598716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3179,7 +3139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &500658912
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3194,7 +3154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &502076526
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3284,7 +3244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1001 &518304899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3372,7 +3332,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &523599330
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3387,7 +3347,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &533950738 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1792930433024800, guid: d11695e43d89ff24bb36886a4c039c14,
@@ -3414,7 +3374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!114 &533950741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3670,24 +3630,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &578411700
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 578411695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &578411701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4051,9 +3996,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 18
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!114 &627543433 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 7627089310253771350, guid: 2115d8c8e6079e74f8b32476384b8fba,
@@ -4104,9 +4049,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
+  materialName: Tonga ceiling
 --- !u!1001 &638018438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4201,7 +4146,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1001 &650334182
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4291,7 +4236,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.55
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1001 &683750687
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4383,9 +4328,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1001 &706580769
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4411,7 +4356,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4633411911301862, guid: 293e268728ae1704b931bbef9043c082, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 2.9
       objectReference: {fileID: 0}
     - target: {fileID: 4633411911301862, guid: 293e268728ae1704b931bbef9043c082, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4674,9 +4619,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &734412566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -4711,7 +4656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!1001 &739202227
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5046,7 +4991,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &782735377
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5061,7 +5006,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &784957399 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -5080,24 +5025,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &784957404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 784957399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &784957405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5260,7 +5190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &798395708
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5275,7 +5205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &813387366 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -5294,24 +5224,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &813387371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813387366}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &813387372
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5344,24 +5259,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &816935868
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816935863}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &816935869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5622,9 +5522,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1001 &861074962
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5918,7 +5818,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &919521219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5933,7 +5833,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &919670886 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -5968,7 +5868,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &919670892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5983,7 +5883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &926172516 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1776277804425246, guid: 247e5b33a1b1dba43a82e14ad7191756,
@@ -6018,7 +5918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.55
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1001 &930407539
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6104,7 +6004,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &936430246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6119,7 +6019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &938839245
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6238,24 +6138,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &955834747
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 955834742}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &955834748
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6288,24 +6173,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &960405242
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 960405237}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &960405243
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6523,7 +6393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &997496284
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6538,7 +6408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1000393117
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6617,24 +6487,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1010441018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010441013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1010441019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6782,24 +6637,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1056785130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1056785125}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1056785131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6885,24 +6725,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1085301803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1085301798}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1085301804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6951,7 +6776,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1100797087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6966,7 +6791,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1105364680
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7151,9 +6976,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &1132191502 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1646095021822916, guid: 7314c015f88e565459fd79bfb3d7cb82,
@@ -7186,9 +7011,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 18
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &1136356574 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -7223,7 +7048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1136356580
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7238,7 +7063,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1140562074
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7333,7 +7158,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1143211280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7348,7 +7173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1159299924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7677,9 +7502,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 18
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &1171173983 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1479674542863872, guid: 1311ead9e03725440bcd145a4ddd5518,
@@ -7714,7 +7539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1 &1171871469 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -7749,7 +7574,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1171871475
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7764,7 +7589,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &1181040393 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4522267577204675770, guid: 7aca962de8cfb124f9d8016064e0b22a,
@@ -7941,7 +7766,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.55
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1 &1248140130 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -7960,24 +7785,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1248140135
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1248140130}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1248140136
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8227,9 +8037,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1 &1301792803 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -8248,24 +8058,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1301792808
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301792803}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1301792809
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8314,7 +8109,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.55
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1 &1309750018 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -8333,24 +8128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1309750023
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309750018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1309750024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8507,7 +8287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1323314943
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8522,7 +8302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1326161919
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8604,7 +8384,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1 &1356126172 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1720321481462350, guid: c73151b2c863d094393f47d50c325553,
@@ -8643,9 +8423,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
-  surface: 9
-  _materialName: Acoustic panel
+  absorptionCoef: 0.78
+  surface: 18
+  materialName: "Pr\xE9gybel plaster"
 --- !u!1001 &1367324790
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8715,24 +8495,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1371132429
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1371132424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1371132430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8820,9 +8585,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.78
   surface: 9
-  _materialName: Acoustic panel
+  materialName: "Pr\xE9gybel plaster"
 --- !u!4 &1395668789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553,
@@ -8877,7 +8642,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1398697812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8892,7 +8657,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1412233329
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9045,7 +8810,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1440053044
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9060,7 +8825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &1449250890
 GameObject:
   m_ObjectHideFlags: 0
@@ -9352,9 +9117,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  absorptionCoef: 0.08
+  surface: 9
+  materialName: Tiled floor
 --- !u!114 &1462174177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9369,7 +9134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: 
 --- !u!114 &1462174178
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9477,7 +9242,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1468052156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9492,7 +9257,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1475722244
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9568,9 +9333,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  absorptionCoef: 0.08
+  surface: 9
+  materialName: Tiled floor
 --- !u!114 &1488424378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9585,7 +9350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: 
 --- !u!114 &1488424379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10015,7 +9780,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1001 &1568180317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10089,24 +9854,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1576159971
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1576159966}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1576159972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10155,7 +9905,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1580235411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10170,7 +9920,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1582617965
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10632,7 +10382,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1639284122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10647,7 +10397,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1642483178
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10999,24 +10749,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1682257204
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682257199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1682257205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11049,24 +10784,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1685244983
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1685244978}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1685244984
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11115,7 +10835,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.21
   surface: 4.7
-  _materialName: 
+  materialName: 
 --- !u!1001 &1702748292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11302,7 +11022,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1734741219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11317,7 +11037,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1739202913
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11455,24 +11175,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1755301490
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1755301485}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1755301491
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11570,7 +11275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1817593332
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11585,7 +11290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1 &1859889013 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1124462881827896, guid: 293e268728ae1704b931bbef9043c082,
@@ -11604,24 +11309,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1859889018
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1859889013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1859889019
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11729,7 +11419,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.04
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1001 &1891516119
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11923,24 +11613,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1915904482
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1915904477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1915904483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12044,7 +11719,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.21
   surface: 2.625
-  _materialName: 
+  materialName: 
 --- !u!1 &1952087359 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1736829470956072, guid: 9b1b38ad56a221f4bb6ad963a1996883,
@@ -12079,7 +11754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &1952087365
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12094,7 +11769,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &1961717410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12154,6 +11829,47 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1961717410}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1965456286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1720321481462350, guid: c73151b2c863d094393f47d50c325553,
+    type: 3}
+  m_PrefabInstance: {fileID: 5037274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1965456287 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4160519767647610, guid: c73151b2c863d094393f47d50c325553,
+    type: 3}
+  m_PrefabInstance: {fileID: 5037274}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1965456288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965456286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  absorptionCoef: 0.78
+  surface: 18
+  materialName: "Pr\xE9gybel plaster"
+--- !u!114 &1965456289
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1965456286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f5d06e13122ac444b4240acff405d8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  materialList: []
+  materialsColors: []
 --- !u!1001 &1978124488
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12274,24 +11990,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &1983210554
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1983210549}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &1983210555
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12324,24 +12025,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &2003668272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003668267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &2003668273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12390,7 +12076,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &2018702667
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12405,7 +12091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &2036420550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12475,24 +12161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  absorptionCoef: 0.45
+  absorptionCoef: 0.26
   surface: 9
-  _materialName: Acoustic panel
---- !u!114 &2065671263
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2065671258}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c2044636ac14bcfb14751b7c6e89aa4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  absorptionCoef: 0.5
-  surface: 0
-  _materialName: 
+  materialName: Tonga ceiling
 --- !u!114 &2065671264
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12770,7 +12441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.55
   surface: 1
-  _materialName: 
+  materialName: 
 --- !u!1001 &2112799240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13039,7 +12710,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.08
   surface: 9
-  _materialName: Tiled floor
+  materialName: Tiled floor
 --- !u!114 &2146959541
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13054,7 +12725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   absorptionCoef: 0.5
   surface: 0
-  _materialName: 
+  materialName: 
 --- !u!1001 &6585942514463717592
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -9,9 +9,9 @@ const {router} = require('./router');
 
 server.use(require('koa-body')({
     multipart: true,
-    formLimit: "10mb",
-    jsonLimit: "50mb",
-    textLimit: "10mb",
+    formLimit: "100mb",
+    jsonLimit: "500mb",
+    textLimit: "100mb",
     enableTypes: ['json', 'form', 'text']
 }));
 
@@ -22,7 +22,7 @@ server.use(router.routes());
 // CONNECT TO DATABASE
 
 const mongoose = require('mongoose');
-const db_URI = 'mongodb://mongo:27017/apiApp12';
+const db_URI = 'mongodb://mongo:27017/apiApp17';
 const db_update = {
     useNewUrlParser: true,
     useUnifiedTopology: true,

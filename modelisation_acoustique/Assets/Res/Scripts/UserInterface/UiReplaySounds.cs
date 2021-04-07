@@ -56,7 +56,7 @@ namespace Res.Scripts.UserInterface
                     TextMeshProUGUI id = _uiSounds[i].transform.Find("no_text").GetComponent<TextMeshProUGUI>();
                     TextMeshProUGUI date = _uiSounds[i].transform.Find("date_text").GetComponent<TextMeshProUGUI>();
                     TextMeshProUGUI frequency = _uiSounds[i].transform.Find("frequency_text").GetComponent<TextMeshProUGUI>();
-                    id.SetText(sounds[i].id.ToString());
+                    id.SetText(sounds[i]._id.ToString());
                     date.SetText(sounds[i].date);
                     frequency.SetText(sounds[i].frequency.ToString());
                 }
@@ -71,7 +71,7 @@ namespace Res.Scripts.UserInterface
             {
                 for (int i = 0; i < sounds.Length; i++)
                 {
-                    if (sounds[i].id == number)
+                    if (sounds[i]._id == number)
                     {
                         for (int j = 0; j < sounds[i].spheres.Count; j++)
                         {

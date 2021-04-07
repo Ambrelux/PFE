@@ -11,6 +11,7 @@ using UnityEngine.Networking;
 using Random = UnityEngine.Random;
 using Res.Scripts.UserInterface;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 namespace Res.Scripts.API
 {
@@ -44,7 +45,6 @@ namespace Res.Scripts.API
         public static IEnumerator InsertSound(List<GameObject> spheresList)
         {
             var json = ParseSoundToJson(spheresList);
-
             var request = new UnityWebRequest ("http://localhost:3000/createSound", "POST");
             byte[] bodyRaw = Encoding.UTF8.GetBytes(json);
             request.uploadHandler = (UploadHandler) new UploadHandlerRaw(bodyRaw);
@@ -129,7 +129,7 @@ public class JsonHelper
 [Serializable]
 public class Sound
 {
-    public int id;
+    public int _id;
     public int scene;
     public string date;
     public int frequency;
@@ -137,7 +137,7 @@ public class Sound
 
     public Sound(int _scene, int _frequency, List<string> _spheres)
     {
-        id = Random.Range(0,999999);
+        _id = Random.Range(0,999999);
         scene = _scene;
         date = DateTime.Now.ToString(CultureInfo.InvariantCulture);
         frequency = _frequency;
