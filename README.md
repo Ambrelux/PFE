@@ -36,7 +36,7 @@ user interface : https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-
 
 ## Authors :
 
-Kergutuil Théo @LeKer29
-Puybaraud Ambre @AmbreLux
+* Kergutuil Théo @LeKer29
+* Puybaraud Ambre @AmbreLux
 
 
