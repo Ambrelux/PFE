@@ -31,7 +31,9 @@ To save sounds' data and replay previous sounds you must install Docker in order
 For this project we used several assets : 
 
 workspace : https://assetstore.unity.com/packages/3d/environments/snaps-prototype-office-137490
+&nbsp;
 cinema : https://assetstore.unity.com/packages/3d/environments/cinema-28039
+&nbsp;
 user interface : https://assetstore.unity.com/packages/tools/gui/modern-ui-pack-150824
 
 ## Authors :
