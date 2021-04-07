@@ -19,6 +19,11 @@ namespace Res.Scripts.Manager
         {
             SceneManager.LoadScene("mid_scene", LoadSceneMode.Single);
         }
+        
+        public void LoadWorkspaceScene2()
+        {
+            SceneManager.LoadScene("workspace_scene", LoadSceneMode.Single);
+        }
     
         private void LoadStartScene()
         {

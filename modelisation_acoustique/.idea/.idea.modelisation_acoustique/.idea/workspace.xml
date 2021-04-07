@@ -20,14 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6423e47f-2721-4e34-ab84-fab963f530cc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../api/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../api/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/../api/models.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.modelisation_acoustique/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiReplaySounds.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiReplaySounds.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/mid_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/start_scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/start_scene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +76,6 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Waves/SoundManager.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/Controller.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Spheres/Sphere.cs" />
-      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Object/HighlightObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiObject.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiWalls.cs" />
@@ -97,6 +92,7 @@
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/Camera/CameraSwitcher.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/API/APIRequest.cs" />
       <option value="$PROJECT_DIR$/Assets/Res/Scripts/UserInterface/UiReplaySounds.cs" />
+      <option value="$PROJECT_DIR$/Assets/Res/Scripts/Manager/SceneLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1kPxznPKnIFXs0cPvi2DubT1egd" />
@@ -211,6 +207,7 @@
       <workItem from="1617649431829" duration="2139000" />
       <workItem from="1617689581744" duration="5157000" />
       <workItem from="1617711072364" duration="2475000" />
+      <workItem from="1617821416359" duration="341000" />
     </task>
     <servers />
   </component>
